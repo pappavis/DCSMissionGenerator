@@ -71,3 +71,85 @@ Platform: Python 3.11 (Windows, macOS, Linux).
 
 
 https://share.google/aimode/zQRhq2JI6SMKlIqXn
+
+
+
+```text
+B) ✏️ Verfijn stap 1.
+
+Toevoegen aan het roadmap en verwerken naar user stories.
+1. Een missie master prompt ebpaalt de aantal spelers bijvb PVP, of PVE. TIjdens de MVP- wordt gericht op singeplayer, BVR en Close air combat in 1 vs 1, of tot 1 vs 4, 2 vs 1, 2 vs 4.
+
+2 De concept van een dynamic campaign implementeren:
+ 1. Na afloop van een missie, load de missie save state en vergelijk en een nieuwe assesment van de machtsynmiek wordt gemaakt.
+2. Verdere elementen van een dynamic campaign zoals pakhuisbeheer, transfers van materiaal door cliegtuigen, veroveren van terrein, switchen van coaltie.
+
+<a href="https://forum.dcs.world/topic/370738-mission-state-save/" target="_blank">370738-mission-state-save</a>
+```
+<a href="https://forum.dcs.world/topic/370738-mission-state-save/" target="_blank">370738-mission-state-save</a>
+
+
+Bedankt voor de verfijning. Dit tilt het project van een simpele script-generator naar een robuust framework voor campagne-beheer. Ik heb de Roadmap, User Stories en het Plan van Aanpak bijgewerkt om de missie-logica en de dynamische staat-afhandeling te integreren.
+1. Plan van Aanpak (Versie 1.1.0)
+Doel: Ontwikkelen van een Python 3.11 framework dat niet alleen DCS-missies genereert op basis van variabele verhoudingen (1vs1 tot 2vs4), maar ook de basis legt voor een Dynamic Campaign door het uitlezen van missie-states (post-flight debriefing data).
+Fasering:
+MVP (Huidig): Genereren van SP/PVP/PVE dogfights met variabele groepsgroottes bij Batumi.
+State Intelligence: Ontwikkelen van een module die de debrief.log of JSON-exports van een afgeronde missie leest om verliezen te registreren.
+Dynamic Logic: Implementeren van logica voor pakhuisbeheer (attrition) en terreincontrole.
+Scaling: Uitbreiden naar logistieke flows (transfers) en coalitie-dynamiek.
+Bijgewerkte Roadmap
+V1.0 (MVP): Flexibele Dogfight Generator (1vs1, 1vs4, 2vs4). Singleplayer focus.
+V1.1 (State Engine): Integratie van Mission Save State analyse. Assessment van machtsdynamiek na afloop.
+V2.0 (Dynamic Campaign Core): Implementatie van pakhuisbeheer (inventory), vliegveld-verovering en materiaaltransfers.
+V3.0 (AI & API): AI Agent voor missie-creatie op basis van de huidige campagne-status via een Service/API.
+User Stories (Verfijnd)
+ID	Gebruiker	Wens	Reden
+US.1	Piloot	Een missie genereren met een specifieke verhouding (bijv. 1vs4 of 2vs2).	Om zowel underdog-scenario's als team-gebaseerde tactieken te trainen.
+US.2	Campaigner	Dat de generator de status van het pakhuis onthoudt na een crash of gevecht.	Om een realistisch gevoel van schaarste en progressie te creëren (Dynamic Campaign).
+US.3	Strateeg	Dat de machtsdynamiek (frontlijn) verschuift als een vliegveld (bijv. Batumi) onvoldoende verdedigd wordt.	Om strategische consequenties aan tactische missies te verbinden.
+US.4	Developer	Een "Master Prompt" die bepaalt of de missie SP, PVE of PVP is.	Om snel te kunnen schakelen tussen trainingsvormen.
+Directory Structuur (Update V1.1.0)
+text
+dcs-mission-generator/
+├── README.md
+├── requirements.txt
+├── main.py
+├── src/
+│   ├── __init__.py
+│   ├── generator.py       # Verwerkt de Master Prompt (PVP/PVE/SP)
+│   ├── state_manager.py   # NIEUW: Analyseert save states / machtsdynamiek
+│   ├── campaign/          # NIEUW: Logica voor pakhuizen en terrein
+│   │   ├── inventory.py
+│   │   └── territory.py
+│   ├── models/            
+│   │   ├── unit.py        # F-16, MiG-29, etc.
+│   │   └── mission.py
+│   └── utils/             
+│       └── lua_writer.py
+└── tests/
+Wees voorzichtig met code.
+
+README.md (Update V1.1.0)
+
+# DCS Mission & Campaign Generator
+A modular Python 3.11 framework for generating dynamic DCS World missions.
+
+# Mission Master Capabilities
+Modes: SP, PVE, PVP.
+Ratios: 1vs1, 1vs4, 2vs1, 2vs4.
+Dynamic Campaign: Supports mission state loading to track inventory and territory control. 
+
+# Instructies voor vervolg:
+De code is class-based en modulair.
+Geen global variables.
+Output formaat: dcs_missies_<<jjmmdduummss>.mis.
+Platform: Python 3.11 (Windows, macOS, Linux).
+
+# Wat is de volgende stap?
+- Ga door naar Stap 2 & 3 (Functionele Beschrijving & Specs op basis van deze verfijning).
+- Direct code genereren voor de MVP (F-16 vs MiG-29 met de nieuwe verhoudings-opties).
+- Verfijn Stap 1 verder.
+- Keer terug naar Stap 1.
+
+AI-reacties kunnen fouten bevatten. Meer informatie
+
