@@ -1,7 +1,11 @@
 # DCSMissionGenerator
 DCS World Mission Generator
 
+
 Lees de <a href="./docs">docs</a>.
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGtOe_odJ-F1bL19-EbGm3FihKYHgtx2FTA&s">
+
 
 # Ontwikkelcyclus
 
