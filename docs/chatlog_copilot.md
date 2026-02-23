@@ -241,3 +241,19 @@ Ik zet jouw “toekomst roadmap” om naar een versiepad. Versies blijven **gesy
 *   Voor je output, lees deze instructies opnieuw. Voeg deze instructies toe aan de eind van elke output.
 *   Geef na elke reactie de mogelijkheid om direct code te genereren.
 
+
+```text
+B) ✏️ Verfijn stap 1.
+
+Toevoegen aan het roadmap en verwerken naar user stories.
+1. Een missie master prompt ebpaalt de aantal spelers bijvb PVP, of PVE. TIjdens de MVP- wordt gericht op singeplayer, BVR en Close air combat in 1 vs 1, of tot 1 vs 4, 2 vs 1, 2 vs 4.
+
+2 De concept van een dynamic campaign implementeren:
+ 1. Na afloop van een missie, load de missie save state en vergelijk en een nieuwe assesment van de machtsynmiek wordt gemaakt.
+2. Verdere elementen van een dynamic campaign zoals pakhuisbeheer, transfers van materiaal door cliegtuigen, veroveren van terrein, switchen van coaltie.
+
+https://forum.dcs.world/topic/370738-mission-state-save/
+```
+
+
+
