@@ -39,6 +39,8 @@ Na jouw output was getoond:
 Geef na elke reactie de mogelijked om direct code te genreren. 
 ```
 
+<img src="https://github.com/pappavis/clipboard-json-logger/raw/master/img/ontwikkelcyclusAI.jpg" widh="40%" heigh="40%" alt="ontwikkelcyclusAI.jpg">
+
 3F7A9C2D
 
 ## Stap 1 — Plan van aanpak + User Stories (incl. Roadmap)
