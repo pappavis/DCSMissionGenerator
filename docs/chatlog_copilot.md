@@ -39,7 +39,8 @@ Na jouw output was getoond:
 Geef na elke reactie de mogelijked om direct code te genreren. 
 ```
 
-<img src="https://github.com/pappavis/clipboard-json-logger/raw/master/img/ontwikkelcyclusAI.jpg" widh="40%" heigh="40%" alt="ontwikkelcyclusAI.jpg">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoGtOe_odJ-F1bL19-EbGm3FihKYHgtx2FTA&s">
+
 
 3F7A9C2D
 
@@ -216,7 +217,7 @@ Ik zet jouw “toekomst roadmap” om naar een versiepad. Versies blijven **gesy
 
 ## Bronnen / Knowledge base die ik in deze stap heb geraadpleegd
 
-1.  DCS World OH 6A V1 1 (bewijs dat DCS World in jouw omgeving/communicatie voorkomt; geen missieformaatdetails) [\[DCS World OH 6A V1 1 \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADgzMWJkYTI5LWJhZmItNDM5MC04OWE0LTg5ZTg0ZmZmMTU1OABGAAAAAABXTKCYyHprS6eyMMemkT8CBwCoc1ccgMkWTIpbuSu3EBNGAAAAAAEJAACoc1ccgMkWTIpbuSu3EBNGAAQ2VsC6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
+1.  DCS World OH 6A V1 1 (bewijs dat DCS World in jouw omgeving/communicatie voorkomt; geen missieformaatdetails) [\[DCS World OH 6A V1 1 \| Outlook\]](<a href="https://outlook.office365.com/owa/?ItemID=AAMkADgzMWJkYTI5LWJhZmItNDM5MC04OWE0LTg5ZTg0ZmZmMTU1OABGAAAAAABXTKCYyHprS6eyMMemkT8CBwCoc1ccgMkWTIpbuSu3EBNGAAAAAAEJAACoc1ccgMkWTIpbuSu3EBNGAAQ2VsC6AAA%3d&exvsurl=1&viewmodel=ReadMessageItem">DCS World OH 6A V1 1</a>)
 2.  7 Free Must-Have Aircraft mods for DCS (idem) [\[7 Free Mus...ds for DCS \| Outlook\]](https://outlook.office365.com/owa/?ItemID=AAMkADgzMWJkYTI5LWJhZmItNDM5MC04OWE0LTg5ZTg0ZmZmMTU1OABGAAAAAABXTKCYyHprS6eyMMemkT8CBwCoc1ccgMkWTIpbuSu3EBNGAAAAAAEJAACoc1ccgMkWTIpbuSu3EBNGAAKGPzlyAAA%3d&exvsurl=1&viewmodel=ReadMessageItem)
 3.  EUAF-FNLM-CD-GU-354 Getting started with Python.docx (Python als gangbare tool/kennis in de organisatie; algemene onderbouwing van Python-keuze) [\[EUAF-FNLM-...ith Python \| Word\]](https://fugro.sharepoint.com/sites/IMS_FNLM/_layouts/15/Doc.aspx?sourcedoc=%7B9F9C89FC-D79A-4927-93CD-0E81474E499D%7D&file=EUAF-FNLM-CD-GU-354%20Getting%20started%20with%20Python.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
@@ -241,6 +242,8 @@ Ik zet jouw “toekomst roadmap” om naar een versiepad. Versies blijven **gesy
 *   Voor je output, lees deze instructies opnieuw. Voeg deze instructies toe aan de eind van elke output.
 *   Geef na elke reactie de mogelijkheid om direct code te genereren.
 
+<img src="https://github.com/pappavis/clipboard-json-logger/raw/master/img/ontwikkelcyclusAI.jpg" widh="40%" heigh="40%" alt="ontwikkelcyclusAI.jpg">
+
 
 ```text
 B) ✏️ Verfijn stap 1.
@@ -254,6 +257,8 @@ Toevoegen aan het roadmap en verwerken naar user stories.
 
 https://forum.dcs.world/topic/370738-mission-state-save/
 ```
+
+<a href="https://forum.dcs.world/topic/370738-mission-state-save/" target="_blank">370738-mission-state-save</a>
 
 
 
